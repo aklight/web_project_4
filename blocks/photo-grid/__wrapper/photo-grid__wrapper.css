@@ -1,0 +1,8 @@
+.photo-grid__wrapper {
+  width: 245px;
+  margin: auto;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around The U.S.</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="images/logo.png" alt="Around The U.S."/>
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img class="profile__avatar" src="images/avatar.jpg" alt="jacques cousteau">
+                <div class="profile__info">
+                    <div class="profile__container">
+                        <h1 class="profile__name">Jacques Cousteau</h1>
+                        <button class="profile__edit-button"></button>
+                    </div>
+                    <h2 class="profile__description">Explorer</h2>
+                </div>
+                <button class="profile__add-button">
+                </button>
+            </section>
+
+            <section class="photo-grid">
+                <ul class="photo-grid__list">
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/yosemite-valley.jpg" alt="view of yosemite valley" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Yosemite Valley</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/lake-louise.png" alt="view of lake louise" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Lake Louise</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/bald-mountains.png" alt="view of bald mountains" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Bald Mountains</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/latemar.png" alt="view of latemar" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Latemar</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/vanoise.png" alt="view of vanoise" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Vanoise Nationa Park</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/lago-di-braies.png" alt="view of lago di braies" />
+                        <div class="photo-grid__wrapper">
+                            <h2 class="photo-grid__title">Lago di Braies</h2>
+                            <img class="photo-grid__heart" src="images/heart.svg" alt="heart icon" />
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">
+                &copy; 2020 Around The U.S.
+            </p>  
+        </footer>
+        <div class="modal modal_type_edit-profile">
+            <div class="modal__container">
+                <button class="modal__close-btn modal__close-btn_type_edit-profile"></button>
+                <form action="#" class="modal__form modal__form_type_edit-profile">
+                    <h2 class="modal__title modal__title_type_edit-profile">Edit profile</h2>
+                    <input id="profile-name" type="text" placeholder="title" class="modal__input modal__input_name" value="" name="Name" required maxlength="40" minlength="2" required>
+                    <input id="profile-desc" type="text" placeholder="description" class="modal__input modal__input_description" value="" name="About me" required maxlength="200" minlength="2" required>
+                    <Button class="modal__save modal__save_type_edit-profile">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./pages/index.js"></script>  
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import "./__copyright/footer__copyright.css";
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1279px) {
+  .footer {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 879px) {
+  .footer {
+    max-width: 282px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}

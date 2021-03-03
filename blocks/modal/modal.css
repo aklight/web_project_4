@@ -1,0 +1,25 @@
+@import url(./__container/modal__container.css);
+@import url(./__close-btn/modal__close-btn.css);
+@import url(./__form/modal__form.css);
+@import url(./__input/modal__input.css);
+@import url(./__title/modal__title.css);
+@import url(./__save/modal__save.css);
+
+.modal {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  animation: modalFade 3s;
+}
+
+.modal_is-open {
+  display: block;
+  background: #0000006b;
+}

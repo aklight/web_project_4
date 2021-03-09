@@ -7,3 +7,4 @@
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/modal/modal.css";
+@import "../blocks/modal/_is-open/modal_is-open.css";

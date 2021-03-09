@@ -6,8 +6,6 @@
   cursor: pointer;
   background-image: url(../../../images/heart.svg);
   background-repeat: no-repeat;
-  background-color: white;
-  border: none;
   display: flex;
   justify-self: flex-end;
   width: 20.76px;

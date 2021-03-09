@@ -18,8 +18,3 @@
   align-items: center;
   animation: modalFade 3s;
 }
-
-.modal_is-open {
-  display: block;
-  background: #0000006b;
-}

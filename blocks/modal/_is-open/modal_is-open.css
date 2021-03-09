@@ -1,0 +1,4 @@
+.modal_is-open {
+  display: flex;
+  background: #0000006b;
+}

@@ -1,17 +1,4 @@
 @font-face {
   font-family: "Inter";
   src: url("./Inter-Regular.woff");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("./inter-700.woffgit");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("./Inter-Medium.woff");
-  font-weight: bolder;
 }

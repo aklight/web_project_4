@@ -1,11 +1,10 @@
 .modal__title {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
   align-self: flex-start;
   margin: 0 0 44px;
+  font-weight: 900;
 }
 
 @media screen and (min-width: 320px) and (max-width: 879px) {

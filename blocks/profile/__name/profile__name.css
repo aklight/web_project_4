@@ -3,7 +3,8 @@
   max-width: 400px;
   font-size: 42px;
   line-height: 48px;
-  font-family: "Inter-Medium", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bolder;
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;

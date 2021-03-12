@@ -21,8 +21,7 @@
   .modal__close-btn {
     height: 35px;
     width: 35px;
-    position: absolute;
     top: -50px;
-    right: 22px;
+    right: 1px;
   }
 }

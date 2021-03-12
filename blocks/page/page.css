@@ -1,11 +1,5 @@
+@import "./__wrapper/page__wrapper.css";
+
 .page {
-  font-family: "Inter", "Arial", sans-serif;
-  background: #000000;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+  background: black;
 }

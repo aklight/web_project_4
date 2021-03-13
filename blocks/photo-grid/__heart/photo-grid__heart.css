@@ -3,6 +3,8 @@
   transition-duration: 0.4s;
   cursor: pointer;
   background-image: url(../../../images/heart.svg);
+  background-color: white;
+  border: none;
   background-repeat: no-repeat;
   display: flex;
   justify-self: flex-end;

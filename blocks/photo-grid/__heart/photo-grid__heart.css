@@ -8,9 +8,8 @@
   background-repeat: no-repeat;
   display: flex;
   justify-self: flex-end;
-  width: 20.76px;
-  height: 18.13px;
-  padding: 0;
+  width: 22px;
+  height: 18px;
 }
 .photo-grid__heart:hover {
   opacity: 0.5;
